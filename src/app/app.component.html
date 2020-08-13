@@ -72,13 +72,16 @@
         <a class="nav-link page-scroll" href="#header">INICIO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#testimonials" (click)="moveToSpecificView('TESTIMONIOS')">EXPOSICION</a>
+        <a class="nav-link page-scroll" href="#details">DIGITALIZACI&Oacute;N</a>
       </li>
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link page-scroll" href="#testimonials" (click)="moveToSpecificView('TESTIMONIOS')">EXPOSICION</a>-->
+<!--      </li>-->
 <!--      <li class="nav-item">-->
 <!--        <a class="nav-link page-scroll" href="#features">CARACTERISTICAS</a>-->
 <!--      </li>-->
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#preview">PREVIO</a>
+        <a class="nav-link page-scroll" href="#comofunciona">COMO FUNCIONA</a>
       </li>
 
       <!-- Dropdown Menu -->
@@ -120,17 +123,17 @@
   <div class="header-content">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="text-container">
-            <h1 >APLICACION MOVIL <br>PARA <span style="font-weight: bold!important" id="js-rotating">NEGOCIOS</span></h1>
-            <p class="p-large">Juiner es la plataforma de negocio que acerca a clientes y productores !Descargalo hoy!</p>
-            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+            <h1 >APLICACI&Oacute;N MOVIL PARA <span style="font-weight: bold!important" id="js-rotating">NEGOCIOS</span></h1>
+            <p class="p-large">Juiner es la plataforma de negocio en línea que conecta a clientes y productores !Descargalo hoy!</p>
+<!--            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>-->
             <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
           </div>
         </div> <!-- end of col -->
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <div class="image-container">
-            <img class="img-fluid" src="../assets/images/header-iphone.png" alt="alternative">
+            <img class="img-fluid" src="../assets/images/jportada.png" alt="alternative">
           </div> <!-- end of image-container -->
         </div> <!-- end of col -->
       </div> <!-- end of row -->
@@ -139,101 +142,168 @@
 </header> <!-- end of header -->
 <!-- end of header -->
 
-    <!-- end of testimonials -->
-    <div id="testimonials" class="basic-1">
+    <!-- Details 1-->
+    <div id="details" class="basic-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="../assets/images/target.svg" alt="alternative">
+          </div> <!-- end of col -->
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h3>Adecuando el mercado a la crisis del COVID-19</h3>
+              <p>En solo unos meses el COVID-19 a producido una crisis financiera en gran escala a nivel mundial, con la incertidumbre si esto terminara, las personas están más tiempo en línea, esto presenta un desafío a las empresas. Cada crisis trae consigo oportunidades, este es el momento de adaptar los círculos de negocios. </p>
+              <a class="btn-solid-reg popup-with-move-anim" href="#contact">!CONTACTANOS HOY!</a>
+            </div> <!-- end of text-container -->
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+    <div class="basic-1">
+      <div class="second">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text-container">
+                <h3>Mercado de consulta en línea</h3>
+                <p>En los últimos meses el sector del comercio electrónico ha visto una duplicación de las transacciones en todos los niveles, es el momento de digitalizar su cadena de producción para brindar servicios en línea y adaptarse a los nuevos modelos de negocio.</p>
+                <a class="btn-solid-reg popup-with-move-anim" href="#contact">!CONTACTANOS HOY!</a>
+              </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+              <img class="img-fluid" src="../assets/images/money.svg" alt="alternative">
+            </div> <!-- end of col -->
+          </div> <!-- end of row -->
+        </div> <!-- end of container -->
+      </div> <!-- end of second -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of details 2 -->
+
+    <div id="comofunciona" class="basic-1">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 style="color: white">EXPOSICION Y VENTA DE PRODUCTOS 24/7</h2>
-            <div class="p-heading p-large">Feria digital los 365 días del año.</div>
-            <ngb-carousel *ngIf="images">
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/zapatos.jpg" alt="Random first slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-<!--                  <img [src]="images[1]" alt="Random second slide">-->
-                  <img src="../assets/images/tomato2.jpg" alt="Random second slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/inmobiliario.jpg" alt="Random third slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/supermercado1.jpg" alt="Random third slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/traje.jpg" alt="Random third slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/ropa_infantil.jpg" alt="Random third slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </ng-template>
-              <ng-template ngbSlide>
-              <div class="picsum-img-wrapper">
-                <img src="../assets/images/autos.jpg" alt="Random third slide">
-              </div>
-              <div class="carousel-caption">
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </ng-template>
-              <ng-template ngbSlide>
-              <div class="picsum-img-wrapper">
-                <img src="../assets/images/labtops.jpg" alt="Random third slide">
-              </div>
-              <div class="carousel-caption">
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </ng-template>
-              <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                  <img src="../assets/images/agricultura.jpg" alt="Random third slide">
-                </div>
-                <div class="carousel-caption">
-                  <h3>Agricultura</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </ng-template>
-            </ngb-carousel>
+            <h2>COMO FUNCIONA</h2>
+            <div class="p-heading p-large">El cliente puede buscar y comparar productos a través de la función de búsqueda avanzada y agregar los productos al carrito de compra. La entrega se realizará mediante el servicio “Delivery”. El cliente paga en línea o en efectivo al momento de la entrega.</div>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+          <div class="col-lg-12">
+
+            <!-- Video Preview -->
+            <div class="image-container">
+              <div class="video-wrapper">
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                  <img class="img-fluid" src="../assets/images/proceso.png" alt="alternative">
+                </a>
+              </div> <!-- end of video-wrapper -->
+            </div> <!-- end of image-container -->
+            <!-- end of video preview -->
+
           </div> <!-- end of col -->
         </div> <!-- end of row -->
       </div> <!-- end of container -->
     </div> <!-- end of basic-1 -->
+
+    <!-- end of testimonials -->
+<!--    <div id="testimonials" class="basic-1">-->
+<!--      <div class="container">-->
+<!--        <div class="row">-->
+<!--          <div class="col-lg-12">-->
+<!--            <h2 style="color: white">EXPOSICION Y VENTA DE PRODUCTOS 24/7</h2>-->
+<!--            <div class="p-heading p-large">Feria digital los 365 días del año.</div>-->
+<!--            <ngb-carousel *ngIf="images">-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/zapatos.jpg" alt="Random first slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>First slide label</h3>-->
+<!--                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--&lt;!&ndash;                  <img [src]="images[1]" alt="Random second slide">&ndash;&gt;-->
+<!--                  <img src="../assets/images/tomato2.jpg" alt="Random second slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Second slide label</h3>-->
+<!--                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/inmobiliario.jpg" alt="Random third slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Third slide label</h3>-->
+<!--                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/supermercado1.jpg" alt="Random third slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Third slide label</h3>-->
+<!--                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/traje.jpg" alt="Random third slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Third slide label</h3>-->
+<!--                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/ropa_infantil.jpg" alt="Random third slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Third slide label</h3>-->
+<!--                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--              <div class="picsum-img-wrapper">-->
+<!--                <img src="../assets/images/autos.jpg" alt="Random third slide">-->
+<!--              </div>-->
+<!--              <div class="carousel-caption">-->
+<!--                <h3>Third slide label</h3>-->
+<!--                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--              </div>-->
+<!--            </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--              <div class="picsum-img-wrapper">-->
+<!--                <img src="../assets/images/labtops.jpg" alt="Random third slide">-->
+<!--              </div>-->
+<!--              <div class="carousel-caption">-->
+<!--                <h3>Third slide label</h3>-->
+<!--                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--              </div>-->
+<!--            </ng-template>-->
+<!--              <ng-template ngbSlide>-->
+<!--                <div class="picsum-img-wrapper">-->
+<!--                  <img src="../assets/images/agricultura.jpg" alt="Random third slide">-->
+<!--                </div>-->
+<!--                <div class="carousel-caption">-->
+<!--                  <h3>Agricultura</h3>-->
+<!--                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>-->
+<!--                </div>-->
+<!--              </ng-template>-->
+<!--            </ngb-carousel>-->
+<!--          </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--      </div> &lt;!&ndash; end of container &ndash;&gt;-->
+<!--    </div> &lt;!&ndash; end of basic-1 &ndash;&gt;-->
 
 <!-- Features -->
 <!--<div id="features" class="tabs">-->
@@ -494,77 +564,38 @@
 
 
 <!-- Video -->
-<div id="preview" class="basic-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>DEMOSTRACION</h2>
-        <div class="p-heading p-large">Vea la facilidad de comprar con Juiner</div>
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-    <div class="row">
-      <div class="col-lg-12">
-
-        <!-- Video Preview -->
-        <div class="image-container">
-          <div class="video-wrapper">
-            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-              <img class="img-fluid" src="../assets/images/video-frame.jpg" alt="alternative">
-              <span class="video-play-button">
-                                    <span></span>
-                                </span>
-            </a>
-          </div> <!-- end of video-wrapper -->
-        </div> <!-- end of image-container -->
-        <!-- end of video preview -->
-
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of basic-1 -->
-<!-- end of video -->
-
-
-<!-- Details 1 -->
-<!--<div id="details" class="basic-2">-->
+<!--<div id="preview" class="basic-1">-->
 <!--  <div class="container">-->
 <!--    <div class="row">-->
-<!--      <div class="col-lg-6">-->
-<!--        <img class="img-fluid" src="../assets/images/details-1-iphone.png" alt="alternative">-->
+<!--      <div class="col-lg-12">-->
+<!--        <h2>DEMOSTRACION</h2>-->
+<!--        <div class="p-heading p-large">Vea la facilidad de comprar con Juiner</div>-->
 <!--      </div> &lt;!&ndash; end of col &ndash;&gt;-->
-<!--      <div class="col-lg-6">-->
-<!--        <div class="text-container">-->
-<!--          <h3>Goals Setting</h3>-->
-<!--          <p>Leno can easily help you track your personal development evolution if you take the time to properly setup your goals at the beginning of the training process. Check out the details</p>-->
-<!--          <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>-->
-<!--        </div> &lt;!&ndash; end of text-container &ndash;&gt;-->
+<!--    </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-12">-->
+
+<!--        &lt;!&ndash; Video Preview &ndash;&gt;-->
+<!--        <div class="image-container">-->
+<!--          <div class="video-wrapper">-->
+<!--            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">-->
+<!--              <img class="img-fluid" src="../assets/images/video-frame.jpg" alt="alternative">-->
+<!--              <span class="video-play-button">-->
+<!--                                    <span></span>-->
+<!--                                </span>-->
+<!--            </a>-->
+<!--          </div> &lt;!&ndash; end of video-wrapper &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of image-container &ndash;&gt;-->
+<!--        &lt;!&ndash; end of video preview &ndash;&gt;-->
+
 <!--      </div> &lt;!&ndash; end of col &ndash;&gt;-->
 <!--    </div> &lt;!&ndash; end of row &ndash;&gt;-->
 <!--  </div> &lt;!&ndash; end of container &ndash;&gt;-->
-<!--</div> &lt;!&ndash; end of basic-2 &ndash;&gt;-->
-<!-- end of details 1 -->
+<!--</div> &lt;!&ndash; end of basic-1 &ndash;&gt;-->
+<!-- end of video -->
 
 
-<!-- Details 2 -->
-<!--<div class="basic-3">-->
-<!--  <div class="second">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <div class="col-lg-6">-->
-<!--          <div class="text-container">-->
-<!--            <h3>Calendar Input</h3>-->
-<!--            <p>The calendar input function enables the user to setup training, meditation and relaxation sessions with ease. Just open the feature and start setting up your time as you desire</p>-->
-<!--            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>-->
-<!--          </div> &lt;!&ndash; end of text-container &ndash;&gt;-->
-<!--        </div> &lt;!&ndash; end of col &ndash;&gt;-->
-<!--        <div class="col-lg-6">-->
-<!--          <img class="img-fluid" src="../assets/images/details-2-iphone.png" alt="alternative">-->
-<!--        </div> &lt;!&ndash; end of col &ndash;&gt;-->
-<!--      </div> &lt;!&ndash; end of row &ndash;&gt;-->
-<!--    </div> &lt;!&ndash; end of container &ndash;&gt;-->
-<!--  </div> &lt;!&ndash; end of second &ndash;&gt;-->
-<!--</div> &lt;!&ndash; end of basic-3 &ndash;&gt;-->
-<!-- end of details 2 -->
+<!-- Details 1-->
 
 
 <!-- Details Lightboxes -->

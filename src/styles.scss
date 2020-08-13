@@ -755,8 +755,8 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-  background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('assets/images/moda2.jpg') center center no-repeat;
-  //background-color:#061F3E;
+  background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('assets/images/backjuiner1.jpg') center center no-repeat;
+  //background-color:#09274d;
   background-size: cover;
 }
 
@@ -1569,12 +1569,12 @@ a:hover.back-to-top {
 
   .navbar-custom .nav-item .nav-link {
     padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-    color: #fff;
+    color: #ffffff!important;
   }
 
   .navbar-custom .nav-item .nav-link:hover,
   .navbar-custom .nav-item .nav-link.active {
-    color: #4582C4;
+    color: #4582C4!important;
   }
 
   .navbar-custom.top-nav-collapse {

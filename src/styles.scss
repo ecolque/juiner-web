@@ -275,7 +275,7 @@ a.white {
   padding-left: 1.3125rem;
   border: 1px solid #9791ae;
   border-radius: 0.25rem;
-  background-color: #413d52;
+  background-color: #3d4d5f;
   color: #f1f1f8;
   font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
   transition: all 0.2s;
@@ -329,7 +329,7 @@ select::-ms-expand {
   padding-left: 1.3125rem;
   border: 1px solid #9791ae;
   border-radius: 0.25rem;
-  background-color: #413d52;
+  background-color: #3D4D5F;
   color: #f1f1f8;
   font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
   transition: all 0.2s;
@@ -1339,8 +1339,8 @@ input[type='checkbox'] {
 .form {
   padding-top: 6.25rem;
   padding-bottom: 5.625rem;
-  //background: url('assets/images/contact-background.jpg') center bottom no-repeat;
-  background: #1b1e21;
+  background: url('assets/images/contact-background.jpg') center bottom no-repeat;
+  //background: #1b1e21;
   background-size: cover;
 }
 
@@ -1373,7 +1373,7 @@ input[type='checkbox'] {
 /**********************/
 .footer {
   padding-top: 5rem;
-  background-color: #09274d;
+  background-color: #061F3E;
 }
 
 .footer .footer-col {
@@ -1425,7 +1425,7 @@ input[type='checkbox'] {
 .copyright {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  background-color: #262431;
+  background-color: #253952;
   text-align: center;
 }
 
